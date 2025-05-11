@@ -1,0 +1,59 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  color: #213547;
+  background-color: #f5f5f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Override Material-UI default styles */
+.MuiContainer-root {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.MuiCard-root {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.MuiCard-root:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+.MuiButton-contained {
+  text-transform: none !important;
+}
+
+.MuiTextField-root {
+  margin-bottom: 1rem !important;
+}
+
+.MuiChip-root {
+  margin: 0.25rem !important;
+}
