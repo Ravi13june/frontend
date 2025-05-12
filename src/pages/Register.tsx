@@ -63,7 +63,7 @@ export default function Register() {
       await register(formData);
       // Navigate based on role
       if (formData.role === 'employer') {
-        navigate('/jobs/create');
+        navigate('/jobs');
       } else {
         navigate('/profile');
       }

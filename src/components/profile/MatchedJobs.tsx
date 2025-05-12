@@ -86,9 +86,9 @@ export const MatchedJobs: React.FC = () => {
                         {match.job.title}
                       </Typography>
                     </Box>
-                    <Typography variant="subtitle1" color="text.secondary" gutterBottom>
+                    {/* <Typography variant="subtitle1" color="text.secondary" gutterBottom>
                       {match.job.company}
-                    </Typography>
+                    </Typography> */}
                     
                     <Box display="flex" gap={2} mb={2}>
                       <Box display="flex" alignItems="center" gap={0.5}>
@@ -126,7 +126,7 @@ export const MatchedJobs: React.FC = () => {
                   </Box>
 
                   <Box display="flex" flexDirection="column" alignItems="flex-end" gap={2}>
-                    <Chip
+                    {/* <Chip
                       label={`${match.matchPercentage}% Match`}
                       color="primary"
                       sx={{
@@ -134,7 +134,7 @@ export const MatchedJobs: React.FC = () => {
                           ? 'rgba(144, 202, 249, 0.16)'
                           : 'rgba(33, 150, 243, 0.1)',
                       }}
-                    />
+                    /> */}
                     <Button
                       variant="contained"
                       color="primary"
